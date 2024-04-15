@@ -1,7 +1,7 @@
 {
-  "name": "Xlicon-MD",
+  "name": "EVERBOT-MD",
   "version": "3.0.5",
-  "description": "Xlicon-MD, A modular advanced wabot",
+  "description": "EVERBOT-MD, A modular advanced wabot",
   "logo": "https://i.ibb.co/FsvbwqF/XLICON.jpg",
   "keywords": [
     "whatsapp",
@@ -45,12 +45,12 @@
     "BOT_NAME": {
       "description": "Set Your Bot Name Here",
       "required": false,
-      "value": "Xʟɪᴄᴏɴ_Mᴅ_V3"
+      "value": "ᴇᴠᴇʀʙᴏᴛ_ᴍᴅ_ᴠ1"
     },
     "PACK_NAME": {
       "description": "Enter Pack Name Here",
       "required": false,
-      "value": "𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑"
+      "value": "𝐄𝐕𝐄𝐑𝐒𝐁𝐎𝐓-𝐕1"
     },
     "AUTHER_NAME": {
       "description": "Enter Auther Name Here",
