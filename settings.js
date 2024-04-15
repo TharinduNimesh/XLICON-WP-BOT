@@ -58,13 +58,13 @@ global.ownername = process.env.SUDO_NAME || 'Tharindu Nimesh' //ur owner name
 //________________________________________________________________________________________________________
 global.websitex = process.env.YT_LINK || "https://youtube.com/@eversoft"
 //________________________________________________________________________________________________________
-global.wagc = process.env.GL_PUSH || "https://whatsapp.com/channel/0029Va4uQIF3rZZggOY6JS2F"
+global.wagc = process.env.GL_PUSH || "https://whatsapp.com/channel/0029Va4uQlF3rZZggOY6JS2F"
 //________________________________________________________________________________________________________
 global.themeemoji = process.env.GL_EMOJI || '🏮'
 //________________________________________________________________________________________________________
 global.wm = process.env.GL_WM || "© ᴇᴠᴇʀꜱᴏꜰᴛ-ɪɴᴄ"
 //________________________________________________________________________________________________________
-global.botscript = process.env.GL_SC || 'https://github.com/salmanytofficial/XLICON-V3-MD' //script link
+global.botscript = process.env.GL_SC || 'https://github.com/TharinduNimesh/EVERBOT-WP' //script link
 //________________________________________________________________________________________________________
 global.packname = process.env.PACK_NAME || "𝐄𝐕𝐄𝐑𝐒𝐁𝐎𝐓-𝐕1"
 //________________________________________________________________________________________________________
