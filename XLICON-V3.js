@@ -11519,7 +11519,7 @@ ${listAdmin}
           let mot = pickRandom(["⌬", "⏣", "❐", "❑", "➛", "✧", "✯"]);
           let xmenu_oh = `
 ┌─❖
-│ *_Hi_* _Senpai_ 👋 
+│ *_Hi_* _Master_ 👋 
 └┬❖  ${pushname} 
  ✑  ${xeonytimewisher} 😄 
   └────────────┈ ▱╼❲⭐❳
@@ -11534,12 +11534,8 @@ ${mot} 𝗠𝗼𝗱𝗲 : ${XliconBotInc.public ? "Public" : `Self`}
 ${mot} 𝗣𝗹𝘂𝗴𝗶𝗻𝘀: ${Xliconfeature()}
 ${mot} 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 ${mot} 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-${mot} 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : *_SalmanSer Server_*
+${mot} 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : *EVERSOFT SERVER*
 ${mot} 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-${mot} 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
-${mot} 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
-${mot} 𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
-
 
  ⏤͟͟͞͞★ 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 ꗄ➺
 
@@ -11631,7 +11627,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -11713,7 +11709,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "./XliconMedia/theme/xliconpic.jpg",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -11735,10 +11731,10 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
 ┃ *ʙᴏᴛ ɴᴀᴍᴇ* : ${botname}
 ┃ *ᴘʟᴜɢɪɴs* : ${Xliconfeature()}
 ┃ *ᴘʀᴇғɪx* :  [ ${prefix} ]
-┃ *ᴠᴇʀsɪᴏɴ* : 3.0.5
+┃ *ᴠᴇʀsɪᴏɴ* : 1.0.9
 ┃ *ᴍᴏᴅᴇ* : ${XliconBotInc.public ? "Public" : `Self`}
-┃ *ᴛʏᴘᴇ sᴄʀɪᴘᴛ* : ɴᴏᴅᴇ_ᴊs
-┃ *ʜᴏsᴛ* : ᴋᴀʟɪʟɪɴᴜx
+┃ *ꜱᴄʀɪᴘᴛ ᴛʏᴘᴇ* : ɴᴏᴅᴇ ᴊs
+┃ *ʜᴏsᴛ* : ᴜʙᴜɴᴛᴜ
 └⟝————ᙍᙊ
         \n${readmore}\n\n${allmenu(prefix, hituet)}`;
           if (typemenu === "v1") {
